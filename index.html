@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/Design sem nome (1).png" alt="avatar das meninas" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Nos somos Camila, Maria, Julya, Brenda e Leticia_</p> 2
+        <h1>Somos alunas de Programação </h1>
+        <p>Somos aluna do 2°Ano do ensino medío. estudamos programação com nosso professor Gabriel. Veja os projetos
+            que já desenvolvemos junto com nosso professor!</p>
+        <p>Nossas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML_camila</p>
+            <p class="badge bg-secondary">CSS_camila</p>
+            <p class="badge bg-secondary">JavaScript_camila</p>
+            <p class="badge bg-secondary">Scratch_todasnós</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Nossos projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/20250505_092032.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Sistema de Contagem de Tempo Preciso: Criamos um projeto que através de um Display conta o tempo utilizamos o Arduino Uno, alguns jumpers para que nosso projeto se conectasse, na parte da programação fizamos através do notebook de nossa escola. 
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/figma.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Site de vendas e trocas</h5>
+                        <p class="card-text"> Este projeto foi criado para a aula do nosso professor Gabriel, com o intuito de criar um site inovador e com benefícios para a humanidade, reduzindo os gastos de consumo e o desperdício na natureza. Criamos um site que, além de fazer com que as pessoas poluam menos no mundo, permite que elas possam trocar coisas que não usam mais e que estão em bom estado por outras coisas de interesse com outras pessoas que anunciaram seus produtos também em nosso site. Os produtos podem ser de diversas áreas e objetos.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/20250523_170654.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Agrinho: Festejando a conexão do Campo a Cidade</h5>
+                        <p class="card-text">Este projeto Scratch cria uma experiência interativa educativa sobre
+                            a vida no campo, permitindo aos usuários explorar informações sobre agronomia, animais, e a
+                            forma de colheita através de cenários dinâmicos e diálogos informativos.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O sistema é baseado em um Arduino Uno, que é o cérebro do projeto. Você usou cabos jumper para fazer as conexões entre os componentes, permitindo que o Arduino se comunique com outras partes do circuito.
+
+O projeto provavelmente inclui um display (como um display de sete segmentos ou um LCD) para mostrar o tempo que está sendo contado, tornando fácil para o usuário ver a contagem em tempo real.
+
+Além disso, você pode ter adicionado um botão para iniciar, pausar ou reiniciar a contagem, dando ao usuário controle sobre o temporizador. O sistema pode também ter uma função de alarme que ativa um sinal sonoro (como um buzzer) quando o tempo se esgota.
+
+O código programado no Arduino cuida de toda a lógica do sistema, garantindo que a contagem seja precisa e que ele responda corretamente aos comandos do usuário.</p>
+                    <img src="img/20250505_092032.jpg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O site de trocas que eu criei é uma plataforma inovadora que permite que as pessoas troquem objetos que não utilizam mais por outros itens de interesse, promovendo a sustentabilidade e a economia circular. A ideia central é incentivar a reutilização de produtos, reduzindo o desperdício e ajudando as pessoas a se desfazerem de coisas que estão em bom estado, mas que já não lhes servem.
+
+**Funcionalidades do Site:**
+
+1. **Criação de Perfis:** Os usuários podem criar perfis personalizados onde podem listar os itens que desejam trocar e aqueles que estão disponíveis para negociação.
+
+2. **Listagem de Itens:** É possível publicar anúncios com fotos, descrições e condições dos objetos. Isso facilita a visualização e a escolha dos itens disponíveis para troca.
+3. **Sistema de Busca:** O site conta com uma ferramenta de busca eficiente, permitindo que os usuários encontrem rapidamente os produtos que desejam trocar ou adquirir.
+
+4. **Mensagens Diretas:** Os usuários podem se comunicar diretamente através de mensagens no site para negociar detalhes da troca, como local e condições do item.
+
+5. **Feedback e Avaliações:** Após a troca, os usuários podem deixar feedback e avaliações, ajudando a construir uma comunidade confiável e engajada.
+
+6. **Categorias Diversificadas:** O site abrange diversas categorias de produtos, desde roupas e eletrônicos até móveis e utensílios domésticos, oferecendo uma ampla gama de opções para os usuários.
+
+7. **Sustentabilidade:** Ao incentivar a troca em vez da compra, o site contribui para a redução do consumo excessivo e dos resíduos, promovendo um estilo de vida mais sustentável.
+
+Esse projeto não só facilita a troca de itens entre pessoas, mas também promove uma consciência ambiental mais forte na comunidade.
+
+                    </p>
+                    <img src="img/figma.jpg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://https://www.figma.com/design/bJnyORnHZG1ef3HulmDaqG/Untitled?node-id=0-1&p=f&t=pdc9xMSYkuJ8M0du-0">Ver projeto ao
+                        vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto criado foi feito com nosso professor Edmilson no intuito de participar do projeto Agrinho onde é uma cometição de programação que acontece no estado do Paraná onde crianças e adolecentes controem um projeto no tema dado pela organizadora do projeto, desenvolvemos um joguinho inspirado no Mario, com niveis e objetivos diferentes em cada tela. (infelismente o link do projeto não será colocado aqui pois a plataforma Scratch bloqueou o asseso aos jogos)</p>
+                    <img src="img/20250523_170654.jpg" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido somente por Camila Mendonça e Julya Guimel</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
